@@ -1,3 +1,3 @@
 # Use my docker from docker hub
-FROM pupster90/ddot3
+FROM pupster90/ddot3:3
 
