@@ -17,4 +17,4 @@ RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
 
 # Specify the default command to run
-# CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
+CMD ["jupyter", "notebook",  "--ip=0.0.0.0","--NotebookApp.token=''" ]
